@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./profile.css">
+    
+  
+   
+
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./assets/FBIcon.svg" alt="">
+        <h1 id="user-name"></h1>
+    </header>
+
+    <!-- Create posts-->
+    <form id="postForm">
+        <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+        <button type="submit" id="submitButton">Post</button>
+       
+    </form>
+
+    <!-- Display posts -->
+    <div id="postsContainer"></div>
+
+    <!-- logout button -->
+    <button id="logout">Logout</button>
+</div>
+    
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-firestore.js" type="module"></script>
+    <script src="your-firebase-configuration.js" type="module"></script>
+    <script src="your-firebase-configuration.js" type="module"></script>
+    <script src="profile.js" type="module"></script>
+</body>
+</html>

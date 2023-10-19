@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap');
+
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans';
+}
+/* Mobile version */
+/* body, container, header */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #f0f2f5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    background-color: #f0f2f5;
+}
+
+.facebookHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.fb{
+    color: #1877f2;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    
+}
+
+.paragraph{
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* Log in */
+#login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#login-email{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#login-password{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#loginButton{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    font-weight: 600;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Account registration */
+.sectoinForCreateAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    border-top: 1px solid rgb(194, 190, 190);
+}
+
+#registration-header{
+    width: 230px;
+    text-align: center;
+    height: 50px;
+    background-color: #42b72a;
+    padding-top: 14px;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+   
+}
+
+#registration-form{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#displayName{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#displayLastName{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#registrationEmail{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#registrationPassword{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#repeatPassword{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.signUpButton{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b72a;
+    font-weight: 600;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#registration-form p{
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: end;
+}
+
+#login-form P{
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: end;
+}

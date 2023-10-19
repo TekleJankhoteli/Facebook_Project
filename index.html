@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Project</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./ressponsive.css">
+</head>
+<body>
+   
+<div class="container">
+    <!-- header -->
+
+    <div class="facebookHeader">
+        <h1 class="fb">facebook</h1>
+        <p class="paragraph">Connect with friends and the world around you on facebook</p>
+    </div>
+
+    
+    <div class="forFlex">
+    <!-- Log In -->
+
+        <form id="login-form">
+
+        <input type="email" id="login-email" placeholder="Email" required>
+        <P id="LoginEmailerr"></P>
+        
+        <input type="password" id="login-password" placeholder="Password" required>
+        <p id="loginPassErr"></p>
+
+        <button type="submit" id="loginButton">Log In</button>
+        </form>
+
+     <!-- Account Registration -->
+    <section class="sectoinForCreateAccount">
+    
+    <h1 id="registration-header" style="cursor: pointer">Create new account</h1>
+
+    <form id="registration-form">
+
+        <input type="text" id="displayName" placeholder="First Name" required>
+        <p id="firstNameError"></p>
+
+        <input type="text" id="displayLastName" placeholder="Last Name" required>
+        <p id="lastNameError"></p>
+
+        <input type="email" id="registrationEmail" placeholder="Email" required>
+        <p id="emailError"></p>
+
+        <input type="password" id="registrationPassword" placeholder="Password" required>
+        <p id="passError"></p>
+
+        <input type="password" id="repeatPassword" placeholder="Repeat Password" required>
+        <p id="repeatedPassErr"></p>
+
+        <button type="submit" class="signUpButton">Sign Up</button>
+
+    </form>
+</section>
+</div>
+  
+</div>
+
+
+
+    
+<script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js" type="module"></script>
+<script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js" type="module"></script>
+<script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-firestore.js" type="module"></script>
+<script src="your-firebase-configuration.js" type="module"></script>
+<script src="index.js" type="module"></script>
+
+</body>
+</html>

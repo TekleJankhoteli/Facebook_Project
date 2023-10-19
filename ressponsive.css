@@ -1,0 +1,175 @@
+/* Tablet version */
+@media screen and (min-width: 900px){
+    .container{
+        
+        width: 900px;
+       
+    }
+
+    .fb{
+      
+        font-size: 70px;
+  
+    }
+    .paragraph{
+        font-size: 20px;
+    }
+
+
+    
+    #login-email{
+        width: 350px;
+        height: 40px;
+
+    }
+    #login-password{
+        width: 350px;
+        height: 40px;
+    }
+    #loginButton{
+        width: 350px;
+        height: 40px;
+        font-size: 20px;
+  
+    }
+    #registration-header{
+  
+        width: 350px;
+        height: 60px;
+        padding-top: 18px;
+       
+    }
+
+    #displayName{
+        width: 350px;
+        height: 40px;
+    
+    }
+    
+    #displayLastName{
+        width: 350px;
+        height: 40px;
+    
+    }
+    
+    #registrationEmail{
+        width: 350px;
+        height: 40px;
+    
+       
+    }
+    
+    #registrationPassword{
+        width: 350px;
+        height: 40px;
+    
+    }
+    
+    #repeatPassword{
+        width: 350px;
+        height: 40px;
+    
+    }
+    
+    .signUpButton{
+        width: 350px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    
+}
+/* Desktop version */
+
+@media screen and (min-width: 1400px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        align-content: center;
+        gap: 8%;
+        width: 100%;
+        height: 100vh;  
+    }
+
+    .facebookHeader{
+        margin-bottom: 120px;
+        padding: 0;
+    }
+   
+    .fb{
+        font-size: 90px;
+    }
+    .paragraph{
+        font-size: 25px;
+    }
+
+    #login-email{
+        width: 400px;
+        height: 50px;
+    }
+    #login-password{
+        width: 400px;
+        height: 50px;
+    }
+
+    #loginButton{
+        width: 400px;
+        height: 50px;
+        font-size: 20px;
+  
+    }
+    #registration-header{
+        width: 400px;
+        height: 70px;
+        padding-top: 25px;
+       
+    }
+
+    #displayName{
+        width: 400px;
+        height: 50px;
+    
+    }
+    
+    #displayLastName{
+        width: 400px;
+        height: 50px;
+    
+    }
+    
+    #registrationEmail{
+        width: 400px;
+        height: 50px;
+    }
+    
+    #registrationPassword{
+        width: 400px;
+        height: 50px;
+    }
+    
+    #repeatPassword{
+        width: 400px;
+        height: 50px;
+    
+    }
+    
+    .signUpButton{
+        width: 400px;
+        height: 50px;
+   
+    }
+    #registration-form p{
+        color: red;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: end;
+    }
+    #login-form P{
+        color: red;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: end;
+    }
+}
